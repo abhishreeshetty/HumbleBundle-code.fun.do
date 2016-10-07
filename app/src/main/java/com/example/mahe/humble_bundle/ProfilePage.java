@@ -31,5 +31,10 @@ public class ProfilePage extends AppCompatActivity {
         Intent intent = new Intent(this, NotificationPage.class);
         startActivity(intent);
     }
+    public void letscontribue(View view)
+    {
+        Intent intent=new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 
 }

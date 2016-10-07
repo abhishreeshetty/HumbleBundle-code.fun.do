@@ -57,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/plus"
+        android:onClick="letscontribue"
         android:id="@+id/button7"
         android:layout_alignTop="@+id/button4"
         android:layout_alignParentRight="true"

@@ -29,6 +29,91 @@
         <activity android:name="com.example.mahe.humble_bundle.PV2" />
         <activity android:name="com.example.mahe.humble_bundle.PV3" />
         <activity android:name="com.example.mahe.humble_bundle.Login"></activity>
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".clothes">
+            <intent-filter>
+                <action android:name="android.intent.action.clothes" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".utensils">
+            <intent-filter>
+                <action android:name="android.intent.action.utensils" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".food">
+            <intent-filter>
+                <action android:name="android.intent.action.food" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".gadgets">
+            <intent-filter>
+                <action android:name="android.intent.action.gadgets" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".machines">
+            <intent-filter>
+                <action android:name="android.intent.action.machines" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".toiletaries">
+            <intent-filter>
+                <action android:name="android.intent.action.toiletaries" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".vehicle">
+            <intent-filter>
+                <action android:name="android.intent.action.vehicle" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".blankets">
+            <intent-filter>
+                <action android:name="android.intent.action.blankets" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".toys">
+            <intent-filter>
+                <action android:name="android.intent.action.toys" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
+
 
 </manifest>
